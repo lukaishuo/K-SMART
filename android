@@ -1,1 +1,6 @@
-
+<uses-permission android:name="android.permission.INTERNET" />网络权限
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />存储权限
+android:usesCleartextTraffic="true"   在<application>中声明 作用：使用未加密明文传输
+android:configChanges="orientation|screenSize|keyboardHidden"切屏时只会执行onConfigurationChanged方法
+android:screenOrientation="landscape"强制横屏
+android:hardwareAccelerated="true"开启硬件加速
