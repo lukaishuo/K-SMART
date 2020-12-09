@@ -4,3 +4,7 @@ android:usesCleartextTraffic="true"   在<application>中声明 作用：使用�
 android:configChanges="orientation|screenSize|keyboardHidden"切屏时只会执行onConfigurationChanged方法
 android:screenOrientation="landscape"强制横屏
 android:hardwareAccelerated="true"开启硬件加速
+<!-- 隐藏状态栏 -->
+<item name="android:windowFullscreen">true</item>
+<!-- 隐藏标题栏 -->
+<item name="android:windowNoTitle">true</item>
