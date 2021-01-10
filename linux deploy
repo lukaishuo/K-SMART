@@ -1,0 +1,2 @@
+ubuntu安装mariadb启动失败时usermod -a -G aid_inet,aid_net_raw mysql
+ubuntu无法使用上下键时usermod -s /bin/bash 用户名
