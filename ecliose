@@ -1,0 +1,3 @@
+WebDriver避免被服务器检查出
+ChromeDriver driver = new ChromeDriver(options);
+driver.executeCdpCommand("Page.addScriptToEvaluateOnNewDocument", coordinates);
